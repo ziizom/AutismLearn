@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/wall2">
+
+
+    <Button
+        android:layout_width="@dimen/icon"
+        android:layout_height="@dimen/icon"
+        android:id="@+id/butHome"
+        android:background="@drawable/home_icon"
+        android:layout_gravity="bottom" />
+
+    <ImageView
+        android:src="@drawable/bananas"
+        android:layout_width="@dimen/logo"
+        android:layout_height="@dimen/logo"
+        android:id="@+id/bananas"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <ImageView
+        android:layout_width="@dimen/logo"
+        android:layout_height="@dimen/logo"
+        android:id="@+id/mango"
+        android:src="@drawable/mango"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:layout_width="@dimen/logo"
+        android:layout_height="@dimen/logo"
+        android:id="@+id/grapes"
+        android:src="@drawable/grapes"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+
+    <ImageView
+        android:layout_width="@dimen/logo"
+        android:layout_height="@dimen/logo"
+        android:id="@+id/strawberry"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/strawberry"/>
+
+    <ImageView
+        android:layout_width="@dimen/logo"
+        android:layout_height="@dimen/logo"
+        android:id="@+id/watermelon"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/watermelon"/>
+
+</LinearLayout>
